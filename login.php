@@ -2,7 +2,7 @@
 include_once 'config.php';
 include_once 'function.php';
 
-
+// checking for errors
 $errors = array();
 
 if (isset($_POST['login'])) {
