@@ -1,6 +1,7 @@
 <?php
 include_once 'config.php';
 include_once 'function.php';
+
 $errors = array();
 
 if (isset($_POST['submit'])) {  
@@ -74,9 +75,11 @@ if (isset($_POST['submit'])) {
                 <br>
             </div>
             <button type="submit" class="btn btn-primary" name="submit" value="submit">Submit</button>
+            <a href="login.php" class="btn btn-secondary">Login</a> <!-- Replaced button with anchor tag -->
         </form>
     </div>
     <?php include 'footer.php'; ?>
 </body>
 
 </html>
+
